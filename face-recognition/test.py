@@ -9,7 +9,7 @@ array = []
 
 cascPath = "haarcascade_frontalface_default.xml"
 
-faceCascade = cv2.CascadeClassifier(cascPath)
+faceCascade = cv2.CascadeClassifier(cv2.data.haarcascades + cascPath)
 
 while(True):
       
